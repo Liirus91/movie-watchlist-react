@@ -1,5 +1,5 @@
 export const AppReduser = (state, action) => {
-  switch (action.tipe) {
+  switch (action.type) {
     case 'ADD_MOVIE_TO_WATCHLIST':
       return { ...state, watchlist: [action.payload, ...state.watchlist] };
     default:
