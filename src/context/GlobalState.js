@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from 'react';
-import AppReduser from './AppReduser';
+import { AppReduser } from './AppReduser';
 
 const initialState = { watchlist: [], watched: [] };
 
