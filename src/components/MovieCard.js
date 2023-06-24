@@ -1,9 +1,10 @@
 import React from 'react';
+import { MovieControls } from './MovieControls';
 
 export const MovieCard = ({ movie, type }) => {
   return (
     <div className="movie-card">
-      <div className="overlay">MovieCard</div>
+      <div className="overlay"></div>
 
       {movie.poster_path ? (
         <img
@@ -13,6 +14,8 @@ export const MovieCard = ({ movie, type }) => {
       ) : (
         <div className="filler-poster"></div>
       )}
+
+      <MovieControls movie={movie} type={type} />
     </div>
   );
 };
