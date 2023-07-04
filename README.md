@@ -4,7 +4,7 @@
 
 For backend used [TMDB](https://www.themoviedb.org/)
 
-# The project used:
+# Used on the project:
 
 - **JavaScript**
 - **ReactJS**
